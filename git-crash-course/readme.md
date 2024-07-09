@@ -105,3 +105,11 @@ git config --global user.email johndoe@example.com
 ## Log
 
 Git log will show recent git commits to the git tree
+
+## Push
+
+When we want to push a repo to our remote origin.
+
+```
+git push
+```
