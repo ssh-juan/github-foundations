@@ -85,6 +85,21 @@ git commit -m "comments"
 
 ## Branches
 
+List of branches
+```
+git branch
+```
+
+Create a new branch
+```
+git branch {name}
+```
+
+Checkout the branch (switch to that branch)
+```
+git checkout {dev}
+```
+
 ## Remotes
 
 ## Stashing
