@@ -27,6 +27,12 @@ mkdir /workspace/tmp
 cd /workspace/tmp
 ```
 
+We will need to create our own SSH RSA key pair.
+
+>Particulary in my case, using WSL did not work well. So I got a suggestion from a friend and began to use Git Bash, instead of WSL. And then it worked.
+
+I had to create all the folders structure of SSH and also the SSH key.
+
 ### HTTPS
 ```sh
 git clone https://github.com/JuanBSoares/repo-generic.git
