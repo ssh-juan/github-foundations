@@ -31,7 +31,35 @@ We will need to create our own SSH RSA key pair.
 
 >Particulary in my case, using WSL did not work well. So I got a suggestion from a friend and began to use Git Bash, instead of WSL. And then it worked.
 
-I had to create all the folders structure of SSH and also the SSH key.
+I had to create all the folders structure of SSH and also the SSH key and do the steps related to it.
+
+We can test our connection here:
+```
+ssh -T git@github.com
+```
+
+### GitHub CLI
+
+I installed the CLI via web browser and later started to use Git Bash to manipulate it.
+> I used the following path link: https://github.com/cli/cli/releases/download/v2.52.0/gh_2.52.0_windows_amd64.zip
+
+Then unziped it and moved the '.exe' file to /bin folder.
+
+Later i moved to that folder and tried to check if it's working checking it's version.
+```
+cd /bin
+./gh --version
+```
+
+```
+gh auth login
+gh clone
+```
+
+- Como clonar um repo via GitHub cli
+```
+gh repo clone {user/repo}
+```
 
 ### HTTPS
 ```sh
