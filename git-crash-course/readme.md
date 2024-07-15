@@ -85,6 +85,7 @@ git commit -m "comments"
 
 ## Branches
 
+<<<<<<< HEAD
 List of branches
 ```
 git branch
