@@ -103,9 +103,31 @@ git checkout {dev}
 
 ## Remotes
 
+We can add remotes but often you will just add remote via upstream when adding a branch.
+
+```ssh
+got remote add ...
+git branch -u origin new-feature
+```
+
 ## Stashing
 
+```
+git stash list
+git stash
+git stash save my-name
+git stash apply
+git stash pop
+```
+
+* NOT USE IN A CLOUD ENV, BECAUSE YOU CAN LOST DATA
+
 ## Merging
+
+```
+git checkout dev
+git merge main
+```
 
 ## Add
 
