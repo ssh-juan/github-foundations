@@ -1,1 +1,5 @@
-# repo-generic
+# GitHub Foundations
+
+My study about Git and GitHub, using the resources provided by Andrew Brown course, available on Youtube.
+
+[GitHub Foundations Certification Course](https://www.youtube.com/watch?v=Jdc0i7RcBv8)
