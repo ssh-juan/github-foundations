@@ -4,4 +4,4 @@
 
 My study about Git and GitHub, using the resources provided by Andrew Brown course, [available on Youtube](https://www.youtube.com/watch?v=Jdc0i7RcBv8).
 
-[**TODO** - After finished, Insert Notion Page Link Here]()
+[My Notion Page with all notes that I took](https://freezing-handspring-675.notion.site/GitHub-Foundations-699fa40eb6014c40b17614916c134a23)
